@@ -1,0 +1,87 @@
+header{
+    background-color: rgb(58, 56, 56);
+    width: 100%;
+    height: 100px;
+    padding:0px;
+    border: 0 px;
+    margin: 0px;
+    display: inline-block;
+    font-family: 'Explora', cursive;
+    display: flex;
+    
+    position:static;
+    background-size: auto;
+}
+.img-1, .theblog{
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.theblog{
+    font-size: 50px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px;
+    padding-left: 150px;
+
+}
+.img-1{
+    margin-top: 10px;
+}
+h1{
+    margin-left: 200px;
+    font-size: 60px;
+    color: rgb(31, 20, 31);
+    font-family: 'Explora', cursive;;
+}
+h2{
+    text-decoration: none;
+    font-size: 50px;
+    margin-left: 200px;
+    color: rgb(75, 62, 75);
+}
+textarea{
+    margin-left: 200px;
+}
+form{
+    font-size: 30px;
+    margin-left: 200px;
+    text-decoration:underline;
+}
+#title{
+    width: 400px;
+    height: 20px;
+   
+}
+#content{
+    width: 500px;
+    height: 300px;
+   
+
+}
+.submit{
+    margin-left: 200px;
+}
+p{
+    margin-left: 30px;
+    font-size: 30px;
+
+}
+body{
+    margin: 0px;
+    border: 0px;
+    font-family: 'Explora', cursive;;
+    
+}
+.post-1, .post-2, .post-3, .post-4{
+    border: solid;
+    margin: 20px 150px 20px 200px;
+
+}
+footer{
+    background-color:#333;
+    width: 100%;
+    height: 90px;
+    margin: 100px 0px 0px 0px;
+
+
