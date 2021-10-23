@@ -98,7 +98,45 @@ console.log(b);
 
 //FAVOURITE NUMBER
 let favouriteNumber: number = 8;
-console.log('My favourite number is:  number');
+console.log('My favourite number is'); console.log(favouriteNumber);
+//dont undestand :/
+
+console.log('----------');
+//SWAP
+let numberToSwap1: number = 123;
+let numberToSwap2: number = 526;
+
+numberToSwap1 = numberToSwap2;
+numberToSwap2 = numberToSwap1;
+
+console.log(numberToSwap1);
+console.log(numberToSwap2);
+//dont get it 
+
+//BMI Index
+let massInKg: number = 81.2;
+let heightInM: number= 1.78;
+console.log(81.2/(1.78*1.78));
+
+console.log('----------');
+//define-basic-infos
+let myName: string = 'Fanni';
+let myAge: number = 27;
+let myHeight: number = 1.80;
+let marreied: boolean = true;
+
+console.log(myName);
+console.log(myAge);
+console.log(myHeight);
+console.log(marreied);
+
+console.log('----------');
+
+
+
+
+
+
 
 
 
