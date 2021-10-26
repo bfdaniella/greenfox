@@ -19,12 +19,12 @@
 // 9 * 15 = 135
 // 10 * 15 = 150
 
+let number: number = 15;
 export function multiplicationTable(number: number) {
     
+    for ( let index = 0; index < 15 ; index++){
+        const result: number = index * number;
+        console.log(index,'*', number,'=', result);
+    }
 }
 
-let number: number = 15;
-for ( let index = 0; index < 15 ; index++){
-    const result: number = index * number;
-    console.log(index,'*', number,'=', result);
-}

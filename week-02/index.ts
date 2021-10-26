@@ -103,14 +103,14 @@ console.log('My favourite number is'); console.log(favouriteNumber);
 
 console.log('----------');
 //SWAP
-let numberToSwap1: number = 123;
+/*let numberToSwap1: number = 123;
 let numberToSwap2: number = 526;
 
 numberToSwap1 = numberToSwap2;
 numberToSwap2 = numberToSwap1;
 
 console.log(numberToSwap1);
-console.log(numberToSwap2);
+console.log(numberToSwap2);*/
 //dont get it 
 
 //BMI Index

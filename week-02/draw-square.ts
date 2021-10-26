@@ -1,11 +1,15 @@
-let lineCount: number = 6;
-let i: number = 1;
-let k: string = "Hello";
+let lineCount1: number = 6;
+let i: number = 2;
+let hello: string = "%";
 
 /*console.log('a','\xa0\ ','a');*/
-if(lineCount = lineCount){
-    console.log(6 * k);
+if(lineCount1 = lineCount1){
+    console.log('%%%%%%');
 }
-for( i < lineCount) {
-    console.log(k,'\xa0\xa0\xa0\xa0\xa0\ ', k)
+while ( i < lineCount1) {
+    console.log(hello,'\xa0\ ', hello);
+    i++
+}
+if(lineCount1 = lineCount1){
+    console.log('%%%%%%');
 }
