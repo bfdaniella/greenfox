@@ -19,8 +19,17 @@ for (var m in myArray){
 }
 console.log(myString);*/
 
-let animals =['koal','pand'];
-console.log(animals);
-for(let i = 0; i < animals.length; i++){
-    console.log(animals.push['a']);
+/*let animals =['koal','pand','zebr','anacond','bo','chinchill','cobr','gorill','hyen','hydr','iguan','impal','pum','tarantul','piranh'];
+let j = animals [0]
+for(let i = 0; i <= animals.length; i++){
+        console.log(j + 'a');
+};*/
+
+let animals =['koal','pand','zebr','anacond','bo','chinchill','cobr','gorill','hyen','hydr','iguan','impal','pum','tarantul','piranh'];
+let j =  []
+let i = 0
+    for(let j = 0; j < animals.length - i; j++){
+        console.log(animals [j] + 'a');
+
 };
+
