@@ -1,8 +1,7 @@
 let lineCount: number = 4;
-let i: number = 0;
-let s: string = '*';
+let s: string = "";
 
-   console.log('*');
+  /* console.log('*'); -manual
     if(i+1){
         console.log('**');
     }
@@ -13,19 +12,29 @@ let s: string = '*';
         console.log('****' );
     };
     
-    /*while(i < lineCount){
-        if(i+1){
-            console.log(c);
-        }
-        i++;
-
-}
-
- 
-/*for(let i=1;i <= lineCount;i++){
-    for(let j=1;j<=i;j++){
-    console.log(c,c);
-}
     
 } */
+//right triangle 
+for (let i = 1; i <= lineCount; i++) {
+  // printing spaces
+  for (let j = 0; j < lineCount - i; j++) {
+    s += " ";
+  }
+  // printing star
+  for (let k = 0; k < i; k++) {
+    s += "*";
+  }
+  s += "\n";
+}
+console.log(s);
 
+//left triangle 
+
+
+for (let i = 1; i <= lineCount; i++) {
+  for (let j = 0; j < i; j++) {
+    s += "*";
+  }
+  s += "\n";
+}
+console.log(s);
